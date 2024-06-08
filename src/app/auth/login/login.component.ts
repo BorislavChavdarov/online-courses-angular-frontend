@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { AuthService } from '../../auth.service';
 import { Router } from '@angular/router';
 import { CreateUserDto } from '../../core/user.service';
 import { HttpErrorResponse } from '@angular/common/http';
+import { AuthService } from '../../services/auth/auth.service';
 
 @Component({
   selector: 'app-login',
